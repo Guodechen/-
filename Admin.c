@@ -60,7 +60,7 @@ void Login()
 
 int CheckUsername(char Username[20])
 {
-	int wy; //0唯一，1不唯一
+	int wy = 0; //0唯一，1不唯一
 	Admin A;
 	FILE *fp;
 
